@@ -1,37 +1,22 @@
 {
-  "name": "vuejs-starter-project",
+  "name": "zerotier-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test": "vue-cli-service test:unit --recursive src/**/**/*.spec.js"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
-    "@vue/cli-plugin-unit-mocha": "^4.5.7",
-    "@vue/test-utils": "^1.1.0",
-    "axios": "^0.20.0",
-    "chai": "^4.2.0",
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.4.5",
-    "vuex": "^3.5.1"
+    "vue": "^3.5.13",
+    "tailwindcss": "^3.4.16",
+    "vue-tsc": "^2.1.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/eslint-config-airbnb": "^5.1.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "5.16.0",
-    "eslint-import-resolver-webpack": "^0.13.0",
-    "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.14.1",
-    "pug": "^3.0.0",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^10.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "@types/jest": "^29.5.14",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
   },
   "eslintConfig": {
     "root": true,
